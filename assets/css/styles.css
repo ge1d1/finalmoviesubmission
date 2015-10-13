@@ -1,0 +1,563 @@
+@font-face {
+      font-family: 'Prometheus';
+      src: url(../fonts/prometheus.ttf);
+      font-weight:400;
+      }
+#home {
+      background-image: url(../images/iphone/prometheusbasepic_actual300x560.jpg);
+    	font-family: 'Prometheus', Audiowide;
+    	font-size: 16.5px;
+    	font-weight: bolder;
+      height: 570px;
+    	width: 319px;
+    	background-repeat: no-repeat;
+    	-webkit-background-size: cover;
+    	 -moz-background-size: cover;
+    	 -ms-background-size: cover;
+    	 -o-background-size: cover;
+    	 background-size: cover; 
+      }
+.homeheader {
+      margin: 0;
+    	padding: 0;
+    	height: 569px;
+      width: 318px;
+      }
+h1 {
+      color: #99ff66;
+      padding:0 51px; 
+      }
+.h1spec{
+        padding: 0 0 0 48px;
+      }
+a {
+        text-decoration: none;
+      }
+/*Navigation---------------------------------------------------------------*/
+nav {
+        margin: 0;
+      	padding: 0;
+      	height: 551px;
+        width: 318px;
+      }
+nav ul {
+        list-style: none;
+        margin: 0;
+      	padding: 0;
+      	height: 550px;
+        width: 317px;
+      }
+nav ul li {
+        margin: 100px 20px 0;
+        padding: 0 12px 0;
+      }
+nav ul li a img{
+      	text-decoration: none;
+      	color: #99ff66;
+        padding:0 83px 0;
+        opacity: .875;
+      }
+nav ul li a img:hover {
+      	color: #33CCFF;
+      	opacity: 0.5;
+      	transition: all 2s ease-in-out;
+      }
+/*Dialog X out------------------------*/
+body {
+      	background-color: #1a1a1a;
+      	color: #ffffff;
+      	font-size: 16.5px;
+        font-weight: bolder;
+      	height: 554px;
+      	width: 304px;
+      }
+[class*='close-'] {
+        position: absolute;
+      }
+.close:after {
+        content: '✖';
+        color: #FFFF00;
+        margin-left: 98%;
+        transition: all 2s ease-in-out;
+      }
+.dialog {
+        height: 568px;
+        position: absolute;
+        width: 320px; 
+      }
+.dialog,
+header {
+        width: 279px; 
+        margin: 0 auto;
+      }
+header:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+/*Trailerpage------------------------*/
+#trailerbody {
+      	background-image: url(../images/desktop/schematic1500.jpg);
+      	color: #99ff66;
+      	font-family: 'Prometheus', Audiowide;
+        font-size: 16.5px;
+        font-weight: bolder;
+        height: 554px;
+      	width: 304px;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -ms-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+      }
+.trailerheader {
+     	  width: 268px;
+    	  margin: 0 7px 0px;
+    	  padding: 0 9px 0px;
+        text-align: center;
+      }
+.trailervideo-container {
+    	  height: 357px;
+      	width: 269px;
+      }
+iframe {
+	     padding-right: 2px;
+      }
+/*Gallerypage--------------------------*/
+      #gallerybody {
+      	background-image: url(../images/desktop/schematic1500.jpg);
+      	color: #99ff66;
+      	font-family: 'Prometheus', Audiowide;
+        font-size: 16.5px;
+        font-weight: bolder;
+        height: 554px;
+      	width: 304px;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -ms-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+      }
+      .galleryheader {
+     	  height: 529px;
+    	  width: 268px;
+    	  margin: 0 7px 0px;
+    	  padding: 0 9px 0px;
+        text-align: center;
+      }
+      .galleryh1{
+        margin: 0 0 0 -19px;     
+      }
+      .gallerycontainer {
+        padding: 0;
+        margin: 0;
+      }
+      .slideimg {
+        margin: 13px 6px 0px 6px;
+        padding:0 0 0 0;
+      }
+/* Slideshow
+------------------------------------------*/
+      .rslides-container {
+        border-radius:8px;
+        position: relative;
+        margin: -25em 0 1em 0.6em;
+        border: solid 1px #eee;
+        padding: 0.375em;
+          width: 266px
+      }
+      .rslides {
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }   
+      .rslides li:first-child {
+        -webkit-backface-visibility: hidden;
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+      .rslides img {
+        float: left;
+        width:100%;
+      }
+/* Slideshow navigator arrows. */
+      a.rslides_nav {
+        padding: 0.25em;
+        line-height: 1;
+      }
+      a.rslides_nav.prev {
+        float: left;
+        color: #FFFF00;
+      }
+      a.rslides_nav.next {
+        float: right;
+        color: #FFFF00;
+      }
+      a.rslides_nav:hover {
+        text-decoration: none;
+        color: #FFFF00;
+      }
+/* Slideshow position indicator tabs. */
+      .rslides_tabs {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        line-height: 1;
+      }
+      .rslides_tabs li {
+        margin: 0.375em 0.25em 0;
+        display: inline-block;
+      }
+      .rslides_tabs a {
+        text-indent: -9999px;
+        font-size:12px;
+        border-radius:50%;
+        display: block;
+        border: 1px solid;
+        border-color: #33CCFF;
+        background: #99ff66;
+        width: 1em;  // 12px
+        height: 1em; // 12px
+      }
+      .rslides_tabs a:hover {
+        border-color: #000;
+      }
+/* Highlight the position indicator tab of currently active slide. */
+      .rsl ides_here a {
+        background: #33CCFF;
+      }
+
+/*Media Queries--------------------------------------------------------------------------------------------*/
+
+@media (min-width: 545px) and (orientation: landscape){
+      #home {
+        background-image: url(../images/original/prometheusbasepic_actual1920x1080.jpg);
+        max-width: 570px; 
+        min-height: 319px;   
+      }
+      .homeheader {
+        height: 318px;
+        max-width: 569px;
+        display: inline-block;
+      }
+      header {
+        display: inline-block;
+      }
+      nav ul { 
+        width: 568px;
+        height: 317px;
+        margin: 0 12px 0;
+        padding: 0 12px 0;
+      }
+      li{
+        display: inline-block;
+        width: 114px;
+        height: 185px;
+      }
+      h1 {
+        padding: 0 0 0 84px;
+        font-size: 18.5px;
+      }      
+      nav ul li a img {
+        padding: 0 104px 0;
+      }
+      nav ul li a img:hover {
+        color: #33CCFF;
+        opacity: 0.5;
+        transition: all 2s ease-in-out;
+      }
+      #trailerbody {
+        width: 554px;
+        height: 308px;
+      }
+      .trailercontainer {
+        border:2px solid white;
+      }
+      iframe {
+        width: 520px;
+        height: 204px;
+        padding-bottom: 9px;
+      }
+      .close:after {
+        content: '✖';
+        color: #FFFF00;
+        margin-left: 190%;
+        transition: all 2s ease-in-out;
+      }
+      .trailerh1 {
+        padding: 0px 91px 0 0px;
+        font-size: 18.5px;
+      }
+      #gallerybody {
+        width:554px;
+        height: 308px;
+      }
+      .galleryheader {
+        height: 268px;
+        width: 529px;
+        margin: 0 7px 0px;
+        padding: 0 9px 0px;
+        text-align: center;
+      }
+      .gallerycontainer {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+      }
+      .galleryh1 {
+        margin: 242px 0px 0 292px;
+        font-size: 18.5px;
+      }
+      .slideimg {
+        margin: -41px 6px 0px 2px;
+        padding: 47px 0 0 0;
+      }
+      .rslides-container {
+        border-radius: 8px;
+        position: relative;
+        margin: -290px 0px 0px 6px;
+        border: solid 1px #eee;
+        padding: 0.375em;
+        width: 363px;
+        height: 270px;
+      }
+      .rslides {
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0; 
+        height: 250px;       
+      }
+      .rslides img {
+        float: left;
+        width: 358px;
+        height: 245px;
+      }
+      .rslides_tabs {
+        margin: 4px 0 0 0;
+        padding: 0;
+        text-align: center;
+        line-height: 1;
+      }
+      .rslides_tabs li {
+        margin: 0px 7px 0px 0px;
+        display: inline-block;
+        width: 8px;
+      }
+      .rslides_tabs a {
+        text-indent: -9999px;
+        font-size:12px;
+        border-radius:50%;
+        display: block;
+        border: 1px solid;
+        border-color: #33CCFF;
+        background: #99ff66;
+        width: 1em;  // 12px
+        height: 1em; // 12px
+      }   
+}
+
+/*Media Query Desktop-----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px){
+      #home {
+        background-image: url(../images/desktop/prometheusbasepic_actual1500.jpg);
+        max-width: 100%; 
+        min-height: 98vh;          
+      }
+      .homeheader {
+        max-width: 100%;
+        display: inline-block;
+      }
+      header {
+        display: inline-block;
+      }
+      .homewrapper{
+        width: 1202px;
+        margin: 0 auto;
+      }
+      nav {
+        width: 100%;
+      }
+      nav ul {
+        margin: 0 auto;
+      }
+      nav ul li{
+        display: inline-block;
+        width: 287px;
+        height: 131px;
+        margin: 305px -19px 11px -3px;
+        padding: 3px 0px 38px 1px;
+      }
+      h1 {        
+        font-size: 28.5px;
+      }      
+      nav ul li a img {
+        width: 150px;
+        height: 150px;
+      }
+      nav ul li a img:hover {
+        color: #33CCFF;
+        opacity: 0.5;
+        transition: all 2s ease-in-out;
+      }
+      #trailerbody {
+        max-width: 100%;
+        min-height: 800px;
+      }
+      iframe {
+        width: 1179px;
+        height: 650px;
+      }      
+      .close:after {
+        content: '✖';
+        color: #FFFF00;
+        margin-left: 413%;
+        font-size: 27px;
+        transition: all 2s ease-in-out;
+      }      
+      .trailerh1 {
+        font-size: 26.5px;
+      }
+      #gallerybody {
+        max-width: 100%;
+        min-height: 800px;
+      }
+      .galleryheader {
+        max-width: 100%;
+      }
+      .gallerycontainer {
+        padding: 0;
+        margin: 0;
+      }
+      .galleryh1 {
+        position: absolute;
+        top: 695px;
+        bottom: 2px;
+        left: 2px;
+        margin: 0 auto;
+        padding: 28px 34px 0;
+        font-size: 26.5px;
+      }
+      .slideimg {
+        margin: -41px 6px 0px 2px;
+        padding: 47px 0 0 0;
+      }
+      .rslides-container {
+        border-radius: 8px;
+        position: relative;
+        margin: -276px 0px 0px -1px;
+        border: solid 1px #eee;
+        width: 1179px;
+        height: 650px;
+      }
+      .rslides {
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0; 
+        height: 616px;       
+      }
+      .rslides img {
+        float: none;
+        width: 1177px;
+        height: 642px;
+      }
+      .rslides_tabs {
+        margin: 6px;
+        padding: 2px;
+        text-align: center;
+        line-height: 1.4;
+      }
+      .rslides_tabs li {
+        margin: 2px 23px 0px 0px;
+        display: inline-block;
+      }
+      .rslides_tabs a {
+        text-indent: -9999px;
+        font-size:12px;
+        border-radius:50%;
+        display: block;
+        border: 1px solid;
+        border-color: #33CCFF;
+        background: #99ff66;
+        width: 1em;  // 12px
+        height: 1em; // 12px
+      }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
